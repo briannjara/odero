@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f2e1e3;
+}
+
+.webinar-title {
+    font-family: 'Playfair Display', serif; /* Font style for main title */
+    font-size: 3em; /* Adjust font size as needed */
+    color: #6c558e; /* Color matching the design */
+    margin-bottom: 0; /* Remove bottom margin */
+}
+
+.webinar-title .the {
+    font-family: 'Great Vibes', cursive; /* Font style for "The" */
+    font-size: 1.5em; /* Adjust font size as needed */
+    color: #e04f80; /* Color matching the design */
+    margin-right: 5px; /* Adjust spacing as needed */
+}
+
+.subtitle {
+    font-size: 1.5em;
+    color: #6c558e;
+    margin-top: 0; /* Remove top margin */
+    margin-bottom: 20px; /* Adjust bottom margin as needed */
+}
+
+.video-placeholder {
+    width: 100%;
+    height: 200px;
+    background-color: #ddd;
+    margin-bottom: 20px;
+}
+
+.content {
+    background-color: #ffb5d4;
+    padding: 20px;
+    text-align: center;
+}
+
+.content h2 {
+    color: #2b23c9; /* Color code matching the design */
+    font-weight: 200;
+    font-family: "Domine", serif;
+}
+
+.btn-p{
+    font-family: "Montserrat";
+    font-size: 8px;
+
+}
+
+.steps {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.steps li {
+    font-size: 1em;
+    margin: 10px ;
+    color: #6c558e;
+}
+
+.number {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3em;
+    color: #6c558e;
+    margin-right: 10px;
+}
+
+.register-button {
+    background-color: #711774;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 20px;
+}
+
+.host {
+    text-align: center;
+    padding: 20px;
+    background-color: #f2e1e3;
+
+}
+
+.hosted-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2em; /* Adjust size as needed */
+    color: #6c558e;
+}
+
+.hosted-title .host-name {
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.5em; /* Adjust size as needed */
+    color: #e04f80;
+}
+
+.host-info {
+    display: flex;
+    align-items: flex-start; /* Align items to the top */
+    justify-content: flex-start; /* Align items to the left */
+    flex-direction: row; /* Place items side by side */
+    margin-top: 20px;
+    text-align: left; /* Ensure text is left-aligned */
+}
+
+.host-image {
+    width: 150px;
+    height: 150px;
+    background-color: #ddd;
+    margin-right: 20px; /* Space between the image and the text */
+}
+
+.host-details {
+    max-width: 600px; /* Adjust as needed */
+}
+
+.host-description {
+    font-size: 1em;
+    color: #6c558e;
+}
+
+.host-quote {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2em; /* Adjust size as needed */
+    color: #6c558e;
+    font-style: italic;
+    position: relative;
+    margin: 20px 0; /* Adjust as needed */
+    padding-left: 40px; /* Space for the opening quote */
+    padding-right: 10px; /* Space for the closing quote */
+    text-align: center; /* Center-align the quote */
+}
+
+.host-quote::before,
+.host-quote::after {
+    content: '"';
+    font-size: 3em; /* Larger size for quotes */
+    color: #6c558e; /* Match the color of the text */
+    position: absolute;
+    top: 0;
+    font-family: 'Great Vibes', cursive; /* Ensure the quotes match the font style */
+}
+
+.host-quote::before {
+    left: -20px; /* Adjust position as needed */
+}
+
+.host-quote::after {
+    right: -20px; /* Adjust position as needed */
+}
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.registration-form input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 400px;
+}
+
+.registration-form .register-button {
+    margin-top: 0;
+}
